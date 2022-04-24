@@ -20,9 +20,9 @@
 </template>
 
 <script>
-export default {
-  name: 'Header'
-}
+  export default {
+    name: 'Header'
+  }
 </script>
 
 <style scoped>
@@ -59,6 +59,7 @@ export default {
     line-height: calc(100% + 20px);
   }
   .header p {
+    margin-bottom: 20%;
     font-size: calc(1rem + 6px);
     line-height: calc(100% + 10px);
   }
@@ -67,13 +68,14 @@ export default {
     .header__image--desktop {
       display: block;
     }
-    .header__image--movil { 
+    .header__image--movil {
       display: none;
     }
     .header h1 {
       font-size: 3rem;
     }
     .header p {
+      margin-bottom: 10%;
       font-size: 2rem;
     }
   }

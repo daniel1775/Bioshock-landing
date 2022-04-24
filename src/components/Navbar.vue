@@ -40,6 +40,7 @@ export default {
     height: 75px;
     position: fixed;
     z-index: 2;
+    border-bottom: 2px solid black;
   }
   .navbar__bars {
     font-size: calc(2rem + 10px);
@@ -70,7 +71,7 @@ export default {
     font-weight: bold;
   }
   .hide__items {
-    transform: translateX(-100%);
+    transform: translateX(100%);
   }
   .show__items {
     transform: translateX(0);
@@ -80,10 +81,13 @@ export default {
     .navbar__bars {
       display: none;
     }
+    .navbar__logo {
+      margin: 10px 0 10px 30px;
+    }
     .navbar__items {
       flex-direction: row;
       position: static;
-      width: 50%;
+      width: 45%;
       height: auto;
       background-color: transparent;
     }

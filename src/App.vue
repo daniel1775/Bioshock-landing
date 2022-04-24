@@ -1,19 +1,22 @@
 <template>
   <Navbar />
   <Header />
+  <History />
 </template>
 
 <script>
-import Header from './components/Header.vue';
-import Navbar from './components/Navbar.vue'
+  import Header from './components/Header.vue';
+  import Navbar from './components/Navbar.vue';
+  import History from './components/History/History.vue';
 
-export default {
-  name: 'App',
-  components: {
-    Header, 
-    Navbar
+  export default {
+    name: 'App',
+    components: {
+      Header,
+      Navbar,
+      History
+    }
   }
-}
 </script>
 
 <style>
@@ -31,6 +34,6 @@ export default {
   }
   :root {
     --dark-blue: #061D2E;
-    --transition: 0.4s all ease;
+    --transition: all 0.4s ease;
   }
 </style>
