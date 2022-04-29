@@ -30,9 +30,6 @@
 
   const toggleArrow = ref(false);
 
-  const handleToggleArrow = computed(() => {
-    
-  });
   const handleShowInfo = computed(() => (
     {
       hide_info: !toggleArrow.value,

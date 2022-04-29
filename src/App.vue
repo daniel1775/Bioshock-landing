@@ -3,6 +3,7 @@
   <Header />
   <History />
   <Aspects />
+  <Critics />
 </template>
 
 <script>
@@ -10,6 +11,7 @@
   import Navbar from './views/Navbar/Navbar.vue';
   import History from './views/History/History.vue';
   import Aspects from './views/Aspects/Aspects.vue';
+  import Critics from './views/Critics/Critics.vue';
 
   export default {
     name: 'App',
@@ -17,7 +19,8 @@
       Header,
       Navbar,
       History,
-      Aspects
+      Aspects,
+      Critics
     }
   }
 </script>
