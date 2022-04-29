@@ -2,19 +2,22 @@
   <Navbar />
   <Header />
   <History />
+  <Aspects />
 </template>
 
 <script>
-  import Header from './components/Header.vue';
-  import Navbar from './components/Navbar.vue';
-  import History from './components/History/History.vue';
+  import Header from './views/Header/Header.vue';
+  import Navbar from './views/Navbar/Navbar.vue';
+  import History from './views/History/History.vue';
+  import Aspects from './views/Aspects/Aspects.vue';
 
   export default {
     name: 'App',
     components: {
       Header,
       Navbar,
-      History
+      History,
+      Aspects
     }
   }
 </script>

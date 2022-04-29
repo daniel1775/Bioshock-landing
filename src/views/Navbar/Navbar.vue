@@ -1,6 +1,6 @@
 <template>
   <nav class="navbar">
-    <img class="navbar__logo" src="../assets/images/logo.svg" alt="image not loaded">
+    <img class="navbar__logo" src="../../assets/images/logo.svg" alt="image not loaded">
     <fa class="navbar__bars" @click="toggleBars = !toggleBars" icon="bars"></fa>
     <ul :class="['navbar__items', handleToggle]">
       <li class="nav__items nav__items--home"><a href="#">INICIO</a></li>

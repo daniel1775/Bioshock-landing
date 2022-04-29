@@ -19,7 +19,7 @@
 
 <script setup>
   import { ref } from 'vue';
-  import SectionHistory from './SectionHistory.vue';
+  import SectionHistory from './components/SectionHistory.vue';
   
   const historyData = ref([
     {

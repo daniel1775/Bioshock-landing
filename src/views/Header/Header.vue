@@ -1,8 +1,8 @@
 <template>
   <header class="header">
     <div class="header__banner">
-      <img class="header__image header__image--movil" src="../assets/images/banner-movil.jpg" alt="">
-      <img class="header__image header__image--desktop" src="../assets/images/banner.jpg" alt="">
+      <img class="header__image header__image--movil" src="../../assets/images/banner-movil.jpg" alt="">
+      <img class="header__image header__image--desktop" src="../../assets/images/banner.jpg" alt="">
       <div class="header__degraded"/>
     </div>
     <h1 class="header__title">
