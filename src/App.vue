@@ -4,6 +4,8 @@
   <History />
   <Aspects />
   <Critics />
+  <SocialMedia />
+  <Footer />
 </template>
 
 <script>
@@ -12,6 +14,8 @@
   import History from './views/History/History.vue';
   import Aspects from './views/Aspects/Aspects.vue';
   import Critics from './views/Critics/Critics.vue';
+  import SocialMedia from './views/SocialMedia/SocialMedia.vue';
+  import Footer from './views/Footer/Footer.vue'
 
   export default {
     name: 'App',
@@ -20,7 +24,9 @@
       Navbar,
       History,
       Aspects,
-      Critics
+      Critics,
+      SocialMedia,
+      Footer
     }
   }
 </script>
